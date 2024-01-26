@@ -17,11 +17,7 @@ gpio_pin = [Pin(pin, Pin.OUT) for pin in gpio_list]
 # Initialize LED
 led = machine.Pin("LED",Pin.OUT)
 
-
-
-# Turn on Pin and LED
-led.on()
-
+# Function to turn off all gpio pins
 def turnoff():
     gpio_pin[0].off()
     gpio_pin[1].off()
@@ -31,10 +27,12 @@ def turnoff():
     gpio_pin[5].off()
     gpio_pin[6].off()
     gpio_pin[7].off()
-    
+ 
+# Turn on [x] pin 
 def turnon(x):
     gpio_pin[x].on()
 
+# Loop creating a Quasi-square wave with period
 while (1):
     
     gpio_pin[6].on()
