@@ -16,13 +16,25 @@ gpio_pin = [Pin(pin, Pin.OUT) for pin in gpio_list]
 # Initialize LED
 led = machine.Pin("LED",Pin.OUT)
 
+
+
 # Turn on Pin and LED
-gpio_pin[7].on()
 led.on()
 
+def turnoff():
+    gpio_pin[0].off()
+    gpio_pin[1].off()
+    gpio_pin[2].off()
+    gpio_pin[3].off()
+    gpio_pin[4].off()
+    gpio_pin[5].off()
+    gpio_pin[6].off()
+    gpio_pin[7].off()
+    
+def turnon(x):
+    gpio_pin[x].on()
 
 def  blinky(timer):
-    gpio_pin[7].toggle()
     led.toggle()
 
 timer.init(freq=10,mode=Timer.PERIODIC,callback=blinky)
