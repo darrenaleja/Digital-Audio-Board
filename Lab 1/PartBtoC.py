@@ -16,8 +16,6 @@ gpio_pin = [Pin(pin, Pin.OUT) for pin in gpio_list]
 # Initialize LED
 led = machine.Pin("LED",Pin.OUT)
 
-
-
 # Turn on Pin and LED
 led.on()
 
