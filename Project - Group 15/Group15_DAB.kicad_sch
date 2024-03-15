@@ -8816,6 +8816,7 @@
 		)
 	)
 	(symbol
+		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 229.87 140.97 0)
 		(unit 1)
@@ -8825,7 +8826,7 @@
 		(dnp no)
 		(uuid "21bb550e-8965-492d-add0-a27feb46458c")
 		(property "Reference" "R10"
-			(at 234.696 143.51 0)
+			(at 234.95 138.176 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8833,7 +8834,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 234.696 145.796 0)
+			(at 234.95 143.764 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9647,7 +9648,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 137.16 0)
+			(at 234.95 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11647,7 +11648,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 137.16 0)
+			(at 145.796 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13057,6 +13058,7 @@
 		)
 	)
 	(symbol
+		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 142.24 140.97 0)
 		(unit 1)
@@ -13066,7 +13068,7 @@
 		(dnp no)
 		(uuid "c8ff99ca-0c4c-4f45-bb9f-da4a6f0dcd99")
 		(property "Reference" "R2"
-			(at 147.066 143.51 0)
+			(at 147.066 138.176 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13074,7 +13076,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 147.066 145.796 0)
+			(at 147.32 143.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
