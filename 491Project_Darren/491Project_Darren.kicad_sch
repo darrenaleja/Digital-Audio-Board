@@ -8747,6 +8747,7 @@
 		)
 	)
 	(symbol
+		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 198.12 118.11 0)
 		(unit 1)
@@ -8763,7 +8764,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "~"
 			(at 203.2 120.65 0)
 			(effects
 				(font
@@ -9020,6 +9021,7 @@
 		)
 	)
 	(symbol
+		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 198.12 128.27 0)
 		(unit 1)
@@ -9036,7 +9038,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "~"
 			(at 203.2 130.81 0)
 			(effects
 				(font
