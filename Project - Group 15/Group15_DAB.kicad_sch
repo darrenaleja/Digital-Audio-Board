@@ -4675,7 +4675,7 @@
 		(uuid "8b48ab0a-ecf4-4da7-bb01-1961790ad506")
 	)
 	(junction
-		(at 55.88 92.71)
+		(at 55.88 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "922b3db3-42ee-43a5-b870-0c31221b8675")
@@ -5404,7 +5404,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 92.71) (xy 55.88 92.71)
+			(xy 53.34 104.14) (xy 55.88 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5914,7 +5914,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 92.71) (xy 58.42 92.71)
+			(xy 55.88 104.14) (xy 58.42 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6494,7 +6494,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 91.44) (xy 55.88 92.71)
+			(xy 55.88 102.87) (xy 55.88 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7356,7 +7356,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 58.42 92.71 0)
+		(at 58.42 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7366,7 +7366,7 @@
 		)
 		(uuid "068ee4a9-35ed-463f-9be7-fe6cb9d03cd9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.614 92.71 0)
+			(at 63.614 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7774,7 +7774,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 53.34 92.71 180)
+		(at 53.34 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7784,7 +7784,7 @@
 		)
 		(uuid "845b2d11-f7ba-4e2a-bae8-403418fab083")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.146 92.71 0)
+			(at 48.146 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9126,6 +9126,72 @@
 			(project "Group15_DAB"
 				(path "/43b85bcc-c949-42f4-ac7f-1cc8aa66ccee"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 55.88 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "433d30cf-738a-4b0c-92af-2c3098126780")
+		(property "Reference" "MCU_PWR07"
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 52.578 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 55.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a6f1308-4590-4bff-8401-ef4bfb93dbfd")
+		)
+		(instances
+			(project "Group15_DAB"
+				(path "/43b85bcc-c949-42f4-ac7f-1cc8aa66ccee"
+					(reference "MCU_PWR07")
 					(unit 1)
 				)
 			)
@@ -11472,72 +11538,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 55.88 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93d76b27-5b10-4a1f-95fc-699e5a98517a")
-		(property "Reference" "MCU_PWR07"
-			(at 55.88 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 52.578 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 55.88 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd88ab57-5a18-44fc-8610-27a37dcd045c")
-		)
-		(instances
-			(project "Group15_DAB"
-				(path "/43b85bcc-c949-42f4-ac7f-1cc8aa66ccee"
-					(reference "MCU_PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 143.51 133.35 0)
 		(unit 1)
@@ -12765,6 +12765,7 @@
 		)
 	)
 	(symbol
+		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 231.14 86.36 0)
 		(unit 1)
@@ -12774,7 +12775,7 @@
 		(dnp no)
 		(uuid "c42ad3be-415c-4696-b07d-3b27209c9df2")
 		(property "Reference" "R17"
-			(at 236.22 81.534 0)
+			(at 235.966 81.788 0)
 			(effects
 				(font
 					(size 1.524 1.524)
