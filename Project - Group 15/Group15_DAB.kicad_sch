@@ -8865,7 +8865,6 @@
 		)
 	)
 	(symbol
-		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 87.63 39.37 270)
 		(unit 1)
@@ -8935,7 +8934,6 @@
 		)
 	)
 	(symbol
-		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 53.34 26.67 270)
 		(unit 1)
@@ -9005,7 +9003,6 @@
 		)
 	)
 	(symbol
-		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 198.12 118.11 0)
 		(unit 1)
@@ -9075,7 +9072,6 @@
 		)
 	)
 	(symbol
-		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 229.87 140.97 0)
 		(unit 1)
@@ -9145,7 +9141,6 @@
 		)
 	)
 	(symbol
-		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 142.24 149.86 0)
 		(unit 1)
@@ -9280,7 +9275,6 @@
 		)
 	)
 	(symbol
-		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 198.12 128.27 0)
 		(unit 1)
@@ -9415,7 +9409,6 @@
 		)
 	)
 	(symbol
-		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 142.24 95.25 0)
 		(unit 1)
@@ -9757,7 +9750,6 @@
 		)
 	)
 	(symbol
-		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 231.14 95.25 0)
 		(unit 1)
@@ -9892,7 +9884,6 @@
 		)
 	)
 	(symbol
-		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 66.04 26.67 270)
 		(unit 1)
@@ -10092,7 +10083,6 @@
 		)
 	)
 	(symbol
-		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 107.95 128.27 0)
 		(unit 1)
@@ -10162,7 +10152,6 @@
 		)
 	)
 	(symbol
-		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 142.24 86.36 0)
 		(unit 1)
@@ -10620,7 +10609,6 @@
 		)
 	)
 	(symbol
-		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 87.63 26.67 270)
 		(unit 1)
@@ -11377,7 +11365,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1nF"
 			(at 173.228 59.436 90)
 			(effects
 				(font
@@ -11496,7 +11484,6 @@
 		)
 	)
 	(symbol
-		(lib_name "491_Symbols:RES_47k_805_PAN")
 		(lib_id "491_Symbols:RES_47k_805_PAN")
 		(at 238.76 44.45 0)
 		(unit 1)
@@ -11781,7 +11768,7 @@
 			)
 		)
 		(property "Value" "3k"
-			(at 190.246 66.802 0)
+			(at 190.754 67.056 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12599,7 +12586,6 @@
 		)
 	)
 	(symbol
-		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 107.95 118.11 0)
 		(unit 1)
@@ -12953,7 +12939,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "22nF"
 			(at 185.674 56.896 90)
 			(effects
 				(font
@@ -13007,7 +12993,6 @@
 		)
 	)
 	(symbol
-		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 229.87 149.86 0)
 		(unit 1)
@@ -13202,7 +13187,7 @@
 			)
 		)
 		(pin "8"
-			(uuid "14810152-096b-4691-b81c-c7b61cea2cfd")
+			(uuid "14810152-096b-4691-b81c-c7b61cea2cfe")
 		)
 		(pin "4"
 			(uuid "015d2b41-a423-47d4-9c4a-b4759e2325ea")
@@ -13214,10 +13199,10 @@
 			(uuid "1182d738-cad6-43e6-aa1a-e56e2601fc78")
 		)
 		(pin "10"
-			(uuid "5cc41cdb-574d-41e6-b2f3-6d3c196eb8cf")
+			(uuid "5cc41cdb-574d-41e6-b2f3-6d3c196eb8d0")
 		)
 		(pin "7"
-			(uuid "fe9c6e8b-b38a-4d14-9768-02caa5f60dd4")
+			(uuid "fe9c6e8b-b38a-4d14-9768-02caa5f60dd5")
 		)
 		(pin "1"
 			(uuid "78076a8f-5600-405d-9fe5-7078b1529a82")
@@ -13226,25 +13211,25 @@
 			(uuid "62313af8-8a19-4fe4-bc91-a1da360fd104")
 		)
 		(pin "12"
-			(uuid "163a20ed-73cf-46fb-a5c7-e12f686a7751")
+			(uuid "163a20ed-73cf-46fb-a5c7-e12f686a7752")
 		)
 		(pin "5"
-			(uuid "c7f53ae4-6b11-4b82-b859-b1a5f0c49e28")
+			(uuid "c7f53ae4-6b11-4b82-b859-b1a5f0c49e29")
 		)
 		(pin "3"
 			(uuid "dab0e65e-434d-495d-a548-f2a273cd757f")
 		)
 		(pin "11"
-			(uuid "c72de627-c18d-4922-b78c-1e8b18ee58bf")
+			(uuid "c72de627-c18d-4922-b78c-1e8b18ee58c0")
 		)
 		(pin "6"
-			(uuid "e25ceae3-15e9-4f65-9034-ca49b3707489")
+			(uuid "e25ceae3-15e9-4f65-9034-ca49b370748a")
 		)
 		(pin "13"
 			(uuid "542edb40-4c5f-4dd8-a556-d683a9f039bd")
 		)
 		(pin "9"
-			(uuid "df0c9f44-cf6c-4cb3-827f-36625fc35b8a")
+			(uuid "df0c9f44-cf6c-4cb3-827f-36625fc35b8b")
 		)
 		(pin "14"
 			(uuid "bf4593ad-a3df-4ee2-8ff9-124b0d9858c5")
@@ -13259,7 +13244,6 @@
 		)
 	)
 	(symbol
-		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 231.14 86.36 0)
 		(unit 1)
@@ -13396,7 +13380,6 @@
 		)
 	)
 	(symbol
-		(lib_name "491_Symbols:RES_1k_805_PAN")
 		(lib_id "491_Symbols:RES_1k_805_PAN")
 		(at 142.24 140.97 0)
 		(unit 1)
