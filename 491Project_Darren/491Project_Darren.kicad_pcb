@@ -262,7 +262,7 @@
 		(descr "Shielded, https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJHSE538X.pdf")
 		(tags "RJ45 8p8c ethernet cat5")
 		(property "Reference" "J1"
-			(at 3.56 -9.5 360)
+			(at 3.56 -9.5 0)
 			(layer "F.SilkS")
 			(uuid "35ec12c9-4bab-4c65-82de-73c135ba713b")
 			(effects
@@ -273,7 +273,7 @@
 			)
 		)
 		(property "Value" "RJ45"
-			(at 3.56 9.5 360)
+			(at 3.56 9.5 0)
 			(layer "F.Fab")
 			(uuid "3342245e-2f1d-4686-a7b9-5c089a44520d")
 			(effects
@@ -505,7 +505,7 @@
 			(uuid "ebafd046-3381-439f-b3cd-fa56e6134178")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.56 -6 360)
+			(at 3.56 -6 0)
 			(layer "F.Fab")
 			(uuid "3feceb02-c8ca-4920-9d13-a83c7dc8b0c4")
 			(effects
@@ -12848,7 +12848,7 @@
 	(footprint "491_Footprints:R_805"
 		(layer "F.Cu")
 		(uuid "fbd7e4fd-db37-426a-be4a-f7af24bcc97e")
-		(at 70.447201 85.5188)
+		(at 119.947201 114.5)
 		(property "Reference" "R8"
 			(at 0 -1.5 0)
 			(unlocked yes)
@@ -13127,7 +13127,7 @@
 			)
 			(polygon
 				(pts
-					(xy 70.273001 85.3196) (xy 70.621401 85.3196) (xy 70.621401 85.718) (xy 70.273001 85.718)
+					(xy 119.773001 114.3008) (xy 120.121401 114.3008) (xy 120.121401 114.6992) (xy 119.773001 114.6992)
 				)
 			)
 		)
@@ -14461,6 +14461,27 @@
 		(polygon
 			(pts
 				(xy 107 63) (xy 184 63) (xy 184 140) (xy 107 140)
+			)
+		)
+	)
+	(zone
+		(net 14)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "6453e464-bf4f-4e7e-b159-2afe0364083b")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 107 63) (xy 184 63) (xy 184 140) (xy 107.5 140)
 			)
 		)
 	)
