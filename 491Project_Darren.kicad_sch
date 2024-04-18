@@ -8996,7 +8996,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 227.33 113.03 0)
 			(effects
 				(font
@@ -9067,7 +9067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "491_Footprints:CAP_CER_0.1uF_1206"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 147.066 79.248 0)
 			(effects
 				(font
@@ -9136,7 +9136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 50.8 171.45 0)
 			(effects
 				(font
@@ -9205,7 +9205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 120.65 163.83 0)
 			(effects
 				(font
@@ -9277,7 +9277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 25.4 85.09 0)
 			(effects
 				(font
@@ -9346,7 +9346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 80.01 194.31 0)
 			(effects
 				(font
@@ -9416,7 +9416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 82.55 139.7 0)
 			(effects
 				(font
@@ -9487,7 +9487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "491_Footprints:CAP_805_CER"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 141.986 151.638 0)
 			(effects
 				(font
@@ -9623,7 +9623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "491_Footprints:CAP_805_CER"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 122.936 171.958 0)
 			(effects
 				(font
@@ -9759,7 +9759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "491_Footprints:CAP_805_CER"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 138.938 40.894 0)
 			(effects
 				(font
@@ -9830,7 +9830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "491_Footprints:CAP_805_CER"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 116.586 171.958 0)
 			(effects
 				(font
@@ -10046,7 +10046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths4522.pdf?ts=1712968882721"
 			(at 78.74 162.56 0)
 			(effects
 				(font
@@ -10280,7 +10280,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 245.11 113.03 0)
 			(effects
 				(font
@@ -10809,7 +10809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 149.86 186.69 0)
 			(effects
 				(font
@@ -10878,7 +10878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 50.8 162.56 0)
 			(effects
 				(font
@@ -10947,7 +10947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 149.86 195.58 0)
 			(effects
 				(font
@@ -11091,7 +11091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://statics.cirrus.com/pubs/proDatasheet/CS8416_DS578F5.pdf"
 			(at 162.56 44.45 0)
 			(effects
 				(font
@@ -11227,7 +11227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 80.01 185.42 0)
 			(effects
 				(font
@@ -11480,7 +11480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 39.37 85.09 0)
 			(effects
 				(font
@@ -11634,7 +11634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 50.8 185.42 0)
 			(effects
 				(font
@@ -11770,7 +11770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "491_Footprints:CAP_805_CER"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 74.676 150.368 0)
 			(effects
 				(font
@@ -12038,7 +12038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 121.92 186.69 0)
 			(effects
 				(font
@@ -12109,7 +12109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "491_Footprints:CAP_805_CER"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 53.086 169.418 0)
 			(effects
 				(font
@@ -12180,7 +12180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "491_Footprints:CAP_805_CER"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 186.436 44.958 0)
 			(effects
 				(font
@@ -12326,7 +12326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths4522.pdf?ts=1712968882721"
 			(at 146.05 163.83 0)
 			(effects
 				(font
@@ -12428,7 +12428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "491_Footprints:CAP_805_CER"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 152.146 79.248 0)
 			(effects
 				(font
@@ -12695,7 +12695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "491_Footprints:CAP_805_CER"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 171.196 79.248 0)
 			(effects
 				(font
@@ -12829,7 +12829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 167.64 171.45 0)
 			(effects
 				(font
@@ -13028,7 +13028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 167.64 166.37 0)
 			(effects
 				(font
@@ -13097,7 +13097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 149.86 140.97 0)
 			(effects
 				(font
@@ -13239,7 +13239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "491_Footprints:CAP_805_CER"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 176.276 88.138 0)
 			(effects
 				(font
@@ -13473,7 +13473,7 @@
 				)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 185.42 58.42 0)
 			(effects
 				(font
@@ -13811,7 +13811,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 189.23 80.01 0)
 			(effects
 				(font
@@ -14012,7 +14012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "491_Footprints:CAP_805_CER"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 138.938 45.974 0)
 			(effects
 				(font
@@ -14081,7 +14081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 80.01 130.81 0)
 			(effects
 				(font
@@ -14312,7 +14312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "491_Footprints:CAP_805_CER"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 58.166 169.418 0)
 			(effects
 				(font
@@ -14446,7 +14446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 129.54 163.83 0)
 			(effects
 				(font
@@ -14515,7 +14515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 50.8 163.83 0)
 			(effects
 				(font
@@ -14655,7 +14655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "491_Footprints:R_805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 149.86 132.08 0)
 			(effects
 				(font
