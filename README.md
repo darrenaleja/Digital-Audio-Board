@@ -11,7 +11,8 @@
 - [Future Improvements](#future-improvements)
 - [Contact Information](#contact-information)
 - [Acknowledgments](#acknowledgments)
-- 
+
+
 ## Branch Information
 
 - **initial-design**: This branch hosts the original PCB files that were submitted for manufacturing. It represents the first complete design iteration of the audio board.
