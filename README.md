@@ -5,6 +5,7 @@
 - [Project Overview](#project-overview)
 - [Project Description](#project-description)
 - [PCB Design Highlights](#pcb-design-highlights)
+- [Branch Information](#branch-information)
 - [Theoretical Background](#theoretical-background)
 - [Build Process](#build-process)
 - [Future Improvements](#future-improvements)
@@ -33,6 +34,11 @@ This board processes AES3 differential audio signals using a comprehensive suite
 - **Power and Ground Plane**: Uses continuous planes to reduce impedance and stabilize a low-noise environment, with strategic cutouts under the op-amp to prevent unwanted capacitance effects.
 - **Differential Pair Traces**: Aligns traces meticulously for differential signals to maintain signal integrity and minimize phase errors and external noise susceptibility.
 
+## Branch Information
+
+- **initial-design**: This branch hosts the original PCB files that were submitted for manufacturing. It represents the first complete design iteration of the audio board.
+- **design-revisions**: Ongoing updates and enhancements to the initial PCB design are made in this branch. It includes comprehensive revisions in terms of circuit design and layout optimizations.
+
 ## Theoretical Background
 
 *Work in Progress*
@@ -56,4 +62,3 @@ For any inquiries or further discussion regarding the project, please contact me
 
 - **Professor Patrick Palmer**: For his invaluable guidance and oversight throughout the project.
 - **TA Jordan Hughes**: For his assistance in PCB design and troubleshooting.
-
