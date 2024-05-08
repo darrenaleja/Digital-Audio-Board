@@ -9,8 +9,8 @@
 
 ## Branch Information
 
-- **initial-design**: This branch hosts the original PCB files that were submitted for manufacturing. It represents the first complete design iteration of the audio board.
-- **design-revisions**: Ongoing updates and enhancements to the initial PCB design are made in this branch. It includes comprehensive revisions in terms of circuit design and layout optimizations.
+- **old-iteration**: This branch hosts the original PCB files that were submitted for manufacturing. It represents the first complete design iteration of the audio board.
+- **improvements**: Ongoing updates and enhancements to the initial PCB design are made in this branch. It includes comprehensive revisions in terms of circuit design and layout optimizations.
 
 ## Project Overview
 
