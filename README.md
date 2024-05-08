@@ -4,7 +4,6 @@
 
 - [Branch Information](#branch-information)
 - [Project Overview](#project-overview)
-- [Project Description](#project-description)
 - [PCB Design Highlights](#pcb-design-highlights)
 
 
@@ -17,10 +16,13 @@
 
 I developed this digital audio board to handle and playback digital audio. This repository contains the circuit design, PCB project, datasheets, and detailed documentation needed to understand the digital audio processing workflow implemented.
 
-<figure style="text-align: center;">
-  <img src="assets/updated_pcb.png" alt="Project Overview" width="500" />
-  <figcaption>Caption: Improved iteration of PCB design.</figcaption>
-</figure>
+<p align="center">
+  <img src="assets/updated_pcb.png" alt="Project Overview" width="500">
+  <br>
+  <em>Improved iteration of PCB design</em>
+</p>
+
+
 
 This board processes AES3 differential audio signals using a number of components that ensure high-quality audio output:
 1. **Receiving AES3 Signal**: Captures AES3 differential audio known for its high reliability and quality in professional audio transmission.
@@ -31,10 +33,12 @@ This board processes AES3 differential audio signals using a number of component
 6. **Signal Passing**: Outputs a single-ended signal from the CS8416 back into the THS4522 for onward transmission, enhancing system flexibility.
 
 
-<figure style="text-align: center;">
-  <img src="assets/block_diagram.png" alt="Project Overview" width="500" />
-  <figcaption>Caption: Block Diagram of Digital Audio Board.</figcaption>
-</figure>
+<p align="center">
+  <img src="assets/block_diagram.png" alt="Project Overview" width="500">
+  <br>
+  <em>Block Diagram of Digital Audio Board</em>
+</p>
+
 
 
 ## PCB Design Highlights
@@ -44,9 +48,10 @@ This board processes AES3 differential audio signals using a number of component
 - **Power and Ground Plane**: Uses continuous planes to reduce impedance and stabilize a low-noise environment, with  cutouts under the op-amp to prevent unwanted capacitance effects.
 - **Differential Pair Traces**: Aligns traces meticulously for differential signals to maintain signal integrity and minimize phase errors and external noise susceptibility.
 
-
-<figure style="text-align: center;">
-  <img src="assets/pcb.jpg" alt="Project Overview" width="500" />
+<p align="center">
+  <img src="assets/pcb.jpg" alt="Project Overview" width="500">
+  <br>
+  <em>Manufactured PCB of initial design</em>
 </p>
 
 
