@@ -17,14 +17,12 @@
 
 I developed this digital audio board to handle and playback digital audio. This repository contains the circuit design, PCB project, datasheets, and detailed documentation needed to understand the digital audio processing workflow implemented.
 
-<p align="center">
+<figure style="text-align: center;">
   <img src="assets/updated_pcb.png" alt="Project Overview" width="500" />
-</p>
-
-## Project Description
+  <figcaption>Caption: Improved iteration of PCB design.</figcaption>
+</figure>
 
 This board processes AES3 differential audio signals using a number of components that ensure high-quality audio output:
-
 1. **Receiving AES3 Signal**: Captures AES3 differential audio known for its high reliability and quality in professional audio transmission.
 2. **Signal Buffering**: Utilizes a THS4522 buffer op-amp to maintain signal integrity as it feeds into the decoding stage.
 3. **Digital Audio Decoding**: The CS8416 digital audio interface receiver decodes the buffered AES3 signal into an I2S digital audio format, supporting various digital audio formats with flexible interfacing.
@@ -33,9 +31,10 @@ This board processes AES3 differential audio signals using a number of component
 6. **Signal Passing**: Outputs a single-ended signal from the CS8416 back into the THS4522 for onward transmission, enhancing system flexibility.
 
 
-<p align="center">
+<figure style="text-align: center;">
   <img src="assets/block_diagram.png" alt="Project Overview" width="500" />
-</p>
+  <figcaption>Caption: Block Diagram of Digital Audio Board.</figcaption>
+</figure>
 
 
 ## PCB Design Highlights
@@ -44,4 +43,10 @@ This board processes AES3 differential audio signals using a number of component
 - **Symmetry and DNF Resistors**: Features a symmetrical op-amp layout to equalize signal path lengths, reducing phase shifts and susceptibility to EMI.
 - **Power and Ground Plane**: Uses continuous planes to reduce impedance and stabilize a low-noise environment, with  cutouts under the op-amp to prevent unwanted capacitance effects.
 - **Differential Pair Traces**: Aligns traces meticulously for differential signals to maintain signal integrity and minimize phase errors and external noise susceptibility.
+
+
+<figure style="text-align: center;">
+  <img src="assets/pcb.jpg" alt="Project Overview" width="500" />
+</p>
+
 
