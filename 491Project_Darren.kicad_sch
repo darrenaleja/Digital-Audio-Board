@@ -6323,16 +6323,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 29.21) (xy 114.3 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "862c5537-f333-4714-aaea-4d51f5da7071")
-	)
-	(wire
-		(pts
 			(xy 71.12 167.64) (xy 68.58 167.64)
 		)
 		(stroke
@@ -7093,6 +7083,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 30.48) (xy 114.3 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d61585c4-05de-4839-8348-80a9f5259fa4")
+	)
+	(wire
+		(pts
 			(xy 177.8 58.42) (xy 176.53 58.42)
 		)
 		(stroke
@@ -7313,7 +7313,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 30.48) (xy 109.22 29.21)
+			(xy 109.22 29.21) (xy 109.22 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7825,9 +7825,9 @@
 			)
 		)
 	)
-	(global_label "SIG_IN-"
+	(global_label "SIG_OUT-"
 		(shape input)
-		(at 109.22 30.48 270)
+		(at 111.76 30.48 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7835,9 +7835,9 @@
 			)
 			(justify right)
 		)
-		(uuid "290f198d-7478-489b-aabf-b172fabd0601")
+		(uuid "2c89cff8-71b2-4e3f-8195-147c98a1565d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 38.9155 90)
+			(at 111.76 42.7181 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8045,28 +8045,6 @@
 			)
 		)
 	)
-	(global_label "AES3-"
-		(shape input)
-		(at 227.33 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "6eb97d97-0448-4a73-aa70-32fecd4e02d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.9589 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PASS+"
 		(shape input)
 		(at 101.6 30.48 270)
@@ -8111,6 +8089,28 @@
 			)
 		)
 	)
+	(global_label "SIG_IN+"
+		(shape input)
+		(at 119.38 30.48 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "793c4682-ce29-4924-a3d4-a35473062b17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.38 38.9155 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SIG_OUT+"
 		(shape input)
 		(at 71.12 26.67 0)
@@ -8146,28 +8146,6 @@
 		(uuid "7edc0d4c-3f22-48a3-b382-3bfeb75ef4e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.9808 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SIG_OUT+"
-		(shape input)
-		(at 119.38 30.48 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "7f121ac0-2ffe-45b4-88bf-3afe35263ef2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 42.7181 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8261,28 +8239,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SIG_OUT-"
-		(shape input)
-		(at 116.84 30.48 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "89e5812a-58e5-47ac-abde-6dbb6904ae50")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 42.7181 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -8529,28 +8485,6 @@
 			)
 		)
 	)
-	(global_label "AES3+"
-		(shape input)
-		(at 227.33 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "ac68a65a-28a7-4b9e-8622-4c116ce40ca2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.9589 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FILT"
 		(shape input)
 		(at 181.61 72.39 90)
@@ -8749,6 +8683,28 @@
 			)
 		)
 	)
+	(global_label "AES3-"
+		(shape input)
+		(at 227.33 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "c9ba8c7f-556d-48fb-88f8-086bee3490ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.9589 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OMCLK"
 		(shape input)
 		(at 227.33 41.91 180)
@@ -8771,9 +8727,9 @@
 			)
 		)
 	)
-	(global_label "SIG_IN+"
+	(global_label "SIG_IN-"
 		(shape input)
-		(at 111.76 30.48 270)
+		(at 116.84 30.48 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8781,9 +8737,9 @@
 			)
 			(justify right)
 		)
-		(uuid "db441d35-6eb8-4e44-9498-057fb657c905")
+		(uuid "d4361e4b-3ef5-4761-a4a3-51444a9982db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 38.9155 90)
+			(at 116.84 38.9155 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8881,6 +8837,28 @@
 			)
 		)
 	)
+	(global_label "AES3+"
+		(shape input)
+		(at 227.33 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "f269ca72-c91c-495d-a251-319a9d2a1787")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.9589 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 177.8 55.88 0)
@@ -8899,6 +8877,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SIG_OUT+"
+		(shape input)
+		(at 114.3 30.48 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "ff7349b3-6bf7-4ccc-8be1-9c7e570d593f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 42.7181 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10712,73 +10712,6 @@
 			(project "491Project_Darren"
 				(path "/43b85bcc-c949-42f4-ac7f-1cc8aa66ccee"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 114.3 40.64 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a5495f8-f9ae-4058-86e7-49c8dbb35626")
-		(property "Reference" "#PWR09"
-			(at 114.3 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 110.998 44.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 114.3 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c325cf1d-e130-44fb-b4b3-1584494c6bb3")
-		)
-		(instances
-			(project "491Project_Darren"
-				(path "/43b85bcc-c949-42f4-ac7f-1cc8aa66ccee"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -14216,7 +14149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x10_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 106.68 24.13 0)
 			(effects
 				(font
@@ -14554,6 +14487,73 @@
 			(project "491Project_Darren"
 				(path "/43b85bcc-c949-42f4-ac7f-1cc8aa66ccee"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 109.22 40.64 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e70f4e60-d590-48d9-ae26-5716bffc689e")
+		(property "Reference" "#PWR09"
+			(at 109.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 105.918 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 109.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7198456-5a1b-4376-998f-3b30e65e3927")
+		)
+		(instances
+			(project "491Project_Darren"
+				(path "/43b85bcc-c949-42f4-ac7f-1cc8aa66ccee"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
