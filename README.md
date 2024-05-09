@@ -1,4 +1,4 @@
-# Digital Audio Board - Darren Aleja
+# Digital Audio Board
 
 ## Table of Contents
 
